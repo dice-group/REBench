@@ -60,7 +60,7 @@ outputFile = The output TTL file where the resulting benchmark will be printed
 ```
 ### Generating Benchmarks from Source 
 Download the source code from [here](https://hobbitdata.informatik.uni-leipzig.de/benchmarks-data/QALDGen-Source.7z). Unzip the folder which contains 4 -- Agglomerative, commons-math3, FEASIBLE, QALDBench-Generator -- java projects. REBench-Generator is the main project from where benchmarks can be generated. Note this project requires the other 3 project to be included in the build path. Also all the jar files in the lib folder of FEASIBLE and Agglomerative need to be added into the main project.
-```
+
 
 ### Developers
   * [Manzoor Ali](https://dice-research.org/ManzoorAli) (DICE, University of Paderborn)
