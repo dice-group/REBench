@@ -13,38 +13,38 @@ Download the folder [REBench-cli](https://hobbitdata.informatik.uni-leipzig.de/R
 From the folder run the following commands to generate benchmarks of your choice: 
 ```html
 ### DBSCAN+Kmeans++ Format ### 
- java -jar rebench.jar -m <method> -n <noRelations> -i <maxNoIterations> -t <noTrialRun> -e <endpointUrl> -q <queryPersonalized> -r <radius> -p <minPts> -o <outputFile>
+ java -jar REBench.jar -m <method> -n <noRelations> -i <maxNoIterations> -t <noTrialRun> -e <endpointUrl> -q <queryPersonalized> -r <radius> -p <minPts> -o <outputFile>
 An example format: 
-java -jar qaldgen.jar   -m db+km++   -n 10   -i 10   -t 10   -e http://localhost:8890/sparql   -q personalized-query.txt   -r 1   -p 1   -o db+km++-10re-benchmark.ttl
+java -jar REBench.jar   -m db+km++   -n 10   -i 10   -t 10   -e http://localhost:8890/sparql   -q personalized-query.txt   -r 1   -p 1   -o db+km++-10re-benchmark.ttl
 
 ### Kmeans++ Format ### 
- java -jar qaldgen.jar -m <method> -n <noRelations> -i <maxNoIterations> -t <noTrialRun> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
+ java -jar REBench.jar -m <method> -n <noRelations> -i <maxNoIterations> -t <noTrialRun> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
 An example format: 
-java -jar qaldgen.jar   -m km++   -n 10   -i 10   -t 10   -e http://localhost:8890/sparql   -q personalized-query.txt   -o km++-10re-benchmark.ttl
+java -jar REBench.jar   -m km++   -n 10   -i 10   -t 10   -e http://localhost:8890/sparql   -q personalized-query.txt   -o km++-10re-benchmark.ttl
 
 
 ### FEASIBLE Format ### 
- java -jar qaldgen.jar -m <method> -n <noRelations> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
+ java -jar REBench.jar -m <method> -n <noRelations> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
 An example format: 
-java -jar qaldgen.jar   -m feasible   -n 10  -e http://localhost:8890/sparql   -q personalized-query.txt   -o feasible-10re-benchmark.ttl
+java -jar REBench.jar   -m feasible   -n 10  -e http://localhost:8890/sparql   -q personalized-query.txt   -o feasible-10re-benchmark.ttl
 
 
 ### Agglomerative Format ### 
- java -jar qaldgen.jar -m <method> -n <noRelations> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
+ java -jar REBench.jar -m <method> -n <noRelations> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
 An example format: 
-java -jar qaldgen.jar   -m agglomerative   -n 10  -e http://localhost:8890/sparql   -q personalized-query.txt   -o agglomerative-10re-benchmark.ttl
+java -jar REBench.jar   -m agglomerative   -n 10  -e http://localhost:8890/sparql   -q personalized-query.txt   -o agglomerative-10re-benchmark.ttl
 
 
 ### FEASIBLE-Exemplars Format ### 
- java -jar qaldgen.jar -m <method> -n <noRelations> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
+ java -jar REBench.jar -m <method> -n <noRelations> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
 An example format: 
-java -jar qaldgen.jar   -m feasible-exmp   -n 10  -e http://localhost:8890/sparql   -q personalized-query.txt   -o feasible-exmp-10re-benchmark.ttl
+java -jar REBench.jar   -m feasible-exmp   -n 10  -e http://localhost:8890/sparql   -q personalized-query.txt   -o feasible-exmp-10re-benchmark.ttl
 
 
 ### Random Selection Format ### 
- java -jar qaldgen.jar -m <method> -n <noRelations> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
+ java -jar REBench.jar -m <method> -n <noRelations> -e <endpointUrl> -q <queryPersonalized> -o <outputFile>
 An example format: 
-java -jar qaldgen.jar   -m random   -n 10  -e http://localhost:8890/sparql   -q personalized-query.txt   -o random-10re-benchmark.ttl
+java -jar REBench.jar   -m random   -n 10  -e http://localhost:8890/sparql   -q personalized-query.txt   -o random-10re-benchmark.ttl
 
 Where
 
