@@ -1,7 +1,8 @@
 ## REBench: Microbenchmarking Framework for Relation Extraction Systems
 
 REBench is Relation Extraction (RE) Microbenchmarks generation framework which is able to generate customized RE benchmarks . The framework is flexible enough to generate benchmarks of varying sizes and according to the user-defined criteria on the most important RE features to be considered for Relation extraction benchmarking. The generation of benchmarks is achieved by selecting prototypical queries (of a user-defined size and specialized selection criteria) using different clustering algorithms.
-
+### REBench Tutorial
+For further details about REBench, RELD, REBench-cli and other related material see our wikis [here](https://github.com/dice-group/REBench/wiki)
 ### REBench Source Code 
 Due to large size of the source code, we have made the code externally available from [here](https://hobbitdata.informatik.uni-leipzig.de/REBench/REBench-cli.zip). Unzip the folder which contains 4 -- Agglomerative, commons-math3, FEASIBLE, QALDBench-Generator -- java projects. REBench-Generator is the main project from where benchmarks can be generated. Note this project requires the other 3 project to be included in the build path. Also all the jar files in the lib folder of FEASIBLE and Agglomerative need to be added into the main project.
 
@@ -9,7 +10,7 @@ Due to large size of the source code, we have made the code externally available
 REBench uses RELD-RDF dataset for generating the benchmarks. The RELD-RDF dataset can be downloaded from [here](https://hobbitdata.informatik.uni-leipzig.de/RELD/) in both TTL and JSON-LD format. The online endpoint is also available from [here](http://reld.cs.upb.de:8890/sparql)
 
  ### Generating Benchmarks from CLI
-Download the folder [REBench-cli](https://hobbitdata.informatik.uni-leipzig.de/REBench/REBench-cli.zip) which contains a runable jar REBench.jar, and comtomized benchmark generation query file personalized-query.txt. While using the RELD-RDF locally then you can find the instruction on RELD [homepage](https://manzoorali29.github.io/index.html) to run a local Virtuoso instance otherwise you can use the online endpoint. 
+Download the folder [REBench-cli](https://hobbitdata.informatik.uni-leipzig.de/REBench/REBench-cli.zip) which contains a runable jar REBench.jar, and comtomized benchmark generation query file personalized-query.txt. While using the RELD-RDF locally then you can find the instruction on RELD [homepage](https://manzoorali29.github.io/index.html) to run a local Virtuoso instance otherwise you can use the online endpoint. For step by step guide use our project wikis [here](https://github.com/dice-group/REBench/wiki/REBench-cli-in-Action)
 From the folder run the following commands to generate benchmarks of your choice: 
 ```html
 ### DBSCAN+Kmeans++ Format ### 
