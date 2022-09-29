@@ -67,6 +67,26 @@ outputFile = The output TTL file where the resulting benchmark will be printed
 ### Generating Benchmarks from Source 
 Download the source code from [here](https://hobbitdata.informatik.uni-leipzig.de/benchmarks-data/QALDGen-Source.7z). Unzip the folder which contains 4 -- Agglomerative, commons-math3, FEASIBLE, QALDBench-Generator -- java projects. REBench-Generator is the main project from where benchmarks can be generated. Note this project requires the other 3 project to be included in the build path. Also all the jar files in the lib folder of FEASIBLE and Agglomerative need to be added into the main project.
 
+### Cite
+If you use our resources please cite our paper:
+
+```
+@inproceedings{ali2022rebench,
+  added-at = {2022-08-02T13:01:29.000+0200},
+  author = {Ali, Manzoor and Saleem, Muhammad and Ngomo, Axel-Cyrille Ngonga},
+  biburl = {https://www.bibsonomy.org/bibtex/2951662997ba515410cd197dcea9174d8/dice-research},
+  booktitle = {{ISWC}},
+  interhash = {90812a30271e3c79a98f1969a87b3630},
+  intrahash = {951662997ba515410cd197dcea9174d8},
+  keywords = {3dfed ali dice ngonga porque raki saleem sfb901 speaker},
+  publisher = {Springer},
+  timestamp = {2022-08-02T13:30:17.000+0200},
+  title = {REBench: Microbenchmarking Framework for Relation Extraction Systems},
+  url = {https://papers.dice-research.org/2022/ISWC_REBench/public.pdf},
+  year = 2022
+}
+```
+
 
 ### Developers
   * [Manzoor Ali](https://dice-research.org/ManzoorAli) (DICE, University of Paderborn)
