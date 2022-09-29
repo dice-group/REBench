@@ -1,3 +1,8 @@
+### Paper: 
+
+This is the offical repository of our paper 
+ [REBench: Microbenchmarking Framework for Relation Extraction Systems](https://papers.dice-research.org/2022/ISWC_REBench/public.pdf)
+ 
 ## REBench: Microbenchmarking Framework for Relation Extraction Systems
 
 REBench is Relation Extraction (RE) Microbenchmarks generation framework which is able to generate customized RE benchmarks . The framework is flexible enough to generate benchmarks of varying sizes and according to the user-defined criteria on the most important RE features to be considered for Relation extraction benchmarking. The generation of benchmarks is achieved by selecting prototypical queries (of a user-defined size and specialized selection criteria) using different clustering algorithms.
